@@ -1,0 +1,15 @@
+SELECT LOWER('DEBADATTA');
+SELECT UPPER('DEBADATTA-77');
+SELECT CONCAT('Deba' ,'datta');
+SELECT CONCAT(null ,'datta');
+SELECT CONCAT('null' , null);
+SELECT LENGTH('Debadatta');
+SELECT LENGTH(' Debadatta');
+SELECT SUBSTR('Debadatta Behera', 10);
+SELECT SUBSTR('Debadatta Behera', 5, 12);
+SELECT LPAD('100',5,'*');
+SELECT LPAD('Morning', 10, 'Good');
+SELECT LPAD('Morning', 15, 'Good');
+SELECT RPAD('Good', 18, 'Evening');
+SELECT TRIM('datta' FROM 'Debadatta');
+SELECT REPLACE('Debadatta Behera', 'Behera', '07');
